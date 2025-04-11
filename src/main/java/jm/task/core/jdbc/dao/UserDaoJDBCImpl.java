@@ -88,6 +88,7 @@ public class UserDaoJDBCImpl implements UserDao {
             state.executeUpdate("TRUNCATE TABLE Users");
         } catch (SQLException e) {
             throw new RuntimeException(e);
+            
         }
     }
 }
